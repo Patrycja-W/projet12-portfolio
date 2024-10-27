@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Skills.scss";
-import M from "../assets/M.png";
+import logo from "../assets/logo.webp";
 import CVPW from "../assets/CVPW.pdf";
 
 const skills = [
@@ -38,7 +38,7 @@ const Skills = () => {
           <i class="fa-solid fa-arrow-down"></i>
         </div>
         <div className="logo-container" onClick={handleLogoClick}>
-          <img src={M} loading="lazy" alt="Logo" className="rotating-logo" />
+          <img src={logo} loading="lazy" alt="Logo" className="rotating-logo" />
         </div>
       </div>
     </div>
