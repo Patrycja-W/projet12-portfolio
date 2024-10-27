@@ -8,7 +8,6 @@ const Header = () => {
       <a
         href="https://www.linkedin.com/in/patrycja-wierzbicka-3168aa295/"
         target="_blank"
-        rel="noopener noreferrer"
         className="nav_btn"
       >
         Contactez-moi !
