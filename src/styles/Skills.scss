@@ -3,7 +3,6 @@ $background-color: #ffc2cb;
 $primary-color: #ffebee;
 $text-color: #333;
 
-// Styles principaux
 .skills-section {
   text-align: center;
   padding: 20px;
@@ -31,7 +30,6 @@ $text-color: #333;
   }
 }
 
-// Liste de skills
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -113,7 +111,7 @@ $text-color: #333;
 
   &:hover {
     transform: scale(1.1);
-    opacity: 1; // Ensure the logo is fully opaque when hovered
+    opacity: 1;
   }
 
   img.rotating-logo {
