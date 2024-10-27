@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Skills.scss";
 import M from "../assets/M.png";
+import CVPW from "../assets/CVPW.pdf";
 
 const skills = [
   "HTML5",
@@ -11,7 +12,9 @@ const skills = [
   "Git",
   "Node.js",
 ];
-
+const handleLogoClick = () => {
+  window.open(CVPW, "_blank");
+};
 const Skills = () => {
   return (
     <div className="skills-section">
@@ -34,7 +37,7 @@ const Skills = () => {
         <div className="arrow">
           <i class="fa-solid fa-arrow-down"></i>
         </div>
-        <div className="logo-container">
+        <div className="logo-container" onClick={handleLogoClick}>
           <img src={M} loading="lazy" alt="Logo" className="rotating-logo" />
         </div>
       </div>

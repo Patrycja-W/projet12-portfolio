@@ -35,11 +35,11 @@ $text-color: #333;
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 70px;
+  gap: 50px;
   justify-content: center;
 
   .skill {
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: $primary-color;
     border-radius: 5px;
     font-size: 16px;

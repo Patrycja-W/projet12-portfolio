@@ -1,25 +1,31 @@
-// ProjectsSection.js
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import "../styles/ProjectsSection.scss";
+import Booki from "../assets/Booki.webp";
+import Ohmyfood from "../assets/Booki.webp";
+import kasa from "../assets/kasa.webp";
 
 const projects = [
   {
     title: "Booki",
-    image: "path/to/booki-image.jpg", // Remplacez par le chemin de votre image
-    link: "https://github.com/yourusername/Booki",
+    image: { Booki },
+    link: "https://github.com/Patrycja-W/PatrycjaWierzbicka_3_08042021",
   },
   {
     title: "OhMyFood",
-    image: "path/to/ohmyfood-image.jpg",
-    link: "https://github.com/yourusername/OhMyFood",
+    image: { Ohmyfood },
+    link: "https://github.com/Patrycja-W/Projet4-Ohmyfood",
   },
   {
     title: "Kasa",
-    image: "path/to/kasa-image.jpg",
-    link: "https://github.com/yourusername/Kasa",
+    image: { kasa },
+    link: "https://github.com/Patrycja-W/projet7-kasa",
   },
-  // Ajoutez d'autres projets ici
+  {
+    title: "Sophie Bluel",
+    image: "path/to/sb-image.jpg",
+    link: "https://github.com/Patrycja-W/projet6-sophiebluel",
+  },
 ];
 
 const ProjectsSection = () => {
