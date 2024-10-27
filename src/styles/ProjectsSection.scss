@@ -1,0 +1,30 @@
+.projects-section {
+  text-align: center;
+  background-color: #ffd6dc;
+
+  padding-bottom: 3rem;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    margin-top: 0;
+    padding-top: 2rem;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 2px;
+      background-color: #333;
+      margin: 0.5rem auto;
+    }
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+}

@@ -1,13 +1,17 @@
 import Header from "./components/Header";
 import Presentation from "./components/Presentation";
-import Works from "./components/Works";
+import ProjectsSection from "./components/ProjectsSection";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header></Header>
       <Presentation></Presentation>
-      <Works></Works>
+      <ProjectsSection></ProjectsSection>
+      <Skills></Skills>
+      <Footer></Footer>
     </>
   );
 }

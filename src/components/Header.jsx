@@ -5,7 +5,14 @@ const Header = () => {
   return (
     <nav className="nav">
       <img className="nav_logo" src={M} alt="" />
-      <div>Linkedin</div>
+      <a
+        href="https://www.linkedin.com/in/patrycja-wierzbicka-3168aa295/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="nav_btn"
+      >
+        Contactez-moi !
+      </a>
     </nav>
   );
 };
