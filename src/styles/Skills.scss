@@ -1,12 +1,7 @@
-// Variables de couleurs
-$background-color: #ffc2cb;
-$primary-color: #ffebee;
-$text-color: #333;
-
 .skills-section {
   text-align: center;
   padding: 20px;
-  background-color: $background-color;
+  background-color: #ffc2cb;
   height: 80%;
 
   h2 {
@@ -35,7 +30,7 @@ $text-color: #333;
 
   .skill {
     padding: 10px 30px;
-    background-color: $primary-color;
+    background-color: #ffebee;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
@@ -43,7 +38,7 @@ $text-color: #333;
   }
 }
 
-.intro-text {
+.bloc_cv {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,12 +52,12 @@ $text-color: #333;
     font-size: clamp(1rem, 3vw, 1.25rem);
     margin-bottom: 1rem;
   }
-}
 
-.arrow {
-  font-size: 65px;
-  position: relative;
-  animation: moveArrow 1s infinite;
+  &_arrow {
+    font-size: 65px;
+    position: relative;
+    animation: moveArrow 1s infinite;
+  }
 }
 
 @keyframes moveArrow {

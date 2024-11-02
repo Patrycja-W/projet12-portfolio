@@ -30,12 +30,12 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="intro-text">
+        <div className="bloc_cv">
           <p>
             Pour voir mon CV,
             <br /> Clique juste ici
           </p>
-          <div className="arrow">
+          <div className="bloc_cv_arrow">
             <i class="fa-solid fa-arrow-down"></i>
           </div>
           <div className="logo-container" onClick={handleLogoClick}>

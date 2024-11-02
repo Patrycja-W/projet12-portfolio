@@ -29,7 +29,7 @@ const ProjectsSection = () => {
   return (
     <div className="projects-section">
       <h2>Mes Projets</h2>
-      <div className="projects-grid">
+      <div className="projects-flex">
         {projects.map((project, index) => (
           <ProjectCard key={index} image={project.image} link={project.link} />
         ))}

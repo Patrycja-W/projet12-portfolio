@@ -5,7 +5,7 @@ const Presentation = () => {
   return (
     <>
       <div className="container">
-        <div className="background-overlay">
+        <div className="container_background">
           <nav className="nav">
             <img className="nav_logo" src={logo} alt="" />
             <a
@@ -16,7 +16,7 @@ const Presentation = () => {
               Contactez-moi !
             </a>
           </nav>
-          <div className="background-overlay_section2">
+          <div className="container_background_section2">
             <h1>Bonjour, je suis Patrycja, développeuse web junior.</h1>
             <h2>Bienvenue sur mon portfolio !</h2>
             <p>

@@ -34,8 +34,8 @@ body {
   height: 80vh;
   overflow: hidden;
 
-  .background-overlay {
-    background-image: url("../assets/backgroundimage.webp");
+  &_background {
+    background-image: url("../assets/general/backgroundimage.webp");
     background-size: cover;
     background-position: center;
     position: absolute;
