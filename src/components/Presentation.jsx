@@ -1,5 +1,5 @@
 import "../styles/Presentation.scss";
-import logo from "../assets/logo.webp";
+import logo from "../assets/general/logo.webp";
 
 const Presentation = () => {
   return (

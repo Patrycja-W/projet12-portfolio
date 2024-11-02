@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Skills.scss";
-import logo from "../assets/logo.webp";
-import CVPW from "../assets/CVPW.pdf";
+import logo from "../assets/general/logo.webp";
+import CVPW from "../assets/general/CVPW.pdf";
 
 const skills = [
   "HTML5",

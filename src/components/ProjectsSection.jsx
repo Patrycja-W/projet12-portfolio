@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import "../styles/ProjectsSection.scss";
-import Booki from "../assets/Booki.webp";
-import Ohmyfood from "../assets/Ohmyfood.webp";
-import kasa from "../assets/kasa.webp";
-import SophieBluel from "../assets/SophieBluel.webp";
+import Booki from "../assets/projets/Booki.webp";
+import Ohmyfood from "../assets/projets/Ohmyfood.webp";
+import kasa from "../assets/projets/kasa.webp";
+import SophieBluel from "../assets/projets/SophieBluel.webp";
 
 const projects = [
   {
