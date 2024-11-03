@@ -10,7 +10,7 @@ body {
   padding: 10px 15px 15px 15px;
 
   &_logo {
-    width: 8%;
+    width: 55px;
   }
 
   &_btn {
@@ -57,6 +57,7 @@ body {
       width: 80%;
       text-align: center;
       letter-spacing: 2px;
+      font-weight: bold;
     }
   }
 }

@@ -4,7 +4,7 @@ import logo from "../assets/general/logo.webp";
 const Presentation = () => {
   return (
     <>
-      <div className="container">
+      <section className="container">
         <div className="container_background">
           <nav className="nav">
             <img className="nav_logo" src={logo} alt="" />
@@ -42,7 +42,7 @@ const Presentation = () => {
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

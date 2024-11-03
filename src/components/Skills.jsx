@@ -18,7 +18,7 @@ const handleLogoClick = () => {
 const Skills = () => {
   return (
     <>
-      <div className="skills-section">
+      <section className="skills-section">
         <div className="skills">
           <h2>Mes Skills</h2>
           <div className="skills-list">
@@ -47,7 +47,7 @@ const Skills = () => {
             />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
