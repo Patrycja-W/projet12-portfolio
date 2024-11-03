@@ -36,7 +36,7 @@ const Skills = () => {
             <br /> Clique juste ici
           </p>
           <div className="bloc_cv_arrow">
-            <i class="fa-solid fa-arrow-down"></i>
+            <i className="fa-solid fa-arrow-down"></i>
           </div>
           <div className="logo-container" onClick={handleLogoClick}>
             <img
