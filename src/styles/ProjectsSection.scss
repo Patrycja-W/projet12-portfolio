@@ -1,8 +1,12 @@
-.projects-section {
+.projects {
   text-align: center;
   background-color: #ffd6dc;
-  padding-bottom: 3rem;
-  height: 80%;
+  height: 615px;
+  padding: 20px;
+
+  @media (max-width: 780px) {
+    height: unset;
+  }
 
   h2 {
     font-size: 2rem;
@@ -21,12 +25,10 @@
     }
   }
 
-  .projects-flex {
+  .projects_flex {
     display: flex;
     flex-wrap: wrap;
     gap: 8%;
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }

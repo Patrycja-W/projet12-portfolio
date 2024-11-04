@@ -31,9 +31,9 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section className="projects-section">
+    <section className="projects">
       <h2>Mes Projets</h2>
-      <div className="projects-flex">
+      <div className="projects_flex">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}

@@ -18,10 +18,10 @@ const handleLogoClick = () => {
 const Skills = () => {
   return (
     <>
-      <section className="skills-section">
-        <div className="skills">
+      <section className="skills">
+        <div className="skills_examples">
           <h2>Mes Skills</h2>
-          <div className="skills-list">
+          <div className="skills_list">
             {skills.map((skill, index) => (
               <div className="skill" key={index}>
                 {skill}
@@ -30,20 +30,20 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="bloc_cv">
+        <div className="skills_cv">
           <p>
             Pour voir mon CV,
             <br /> Clique juste ici
           </p>
-          <div className="bloc_cv_arrow">
+          <div className="skills_cv_arrow">
             <i className="fa-solid fa-arrow-down"></i>
           </div>
-          <div className="logo-container" onClick={handleLogoClick}>
+          <div className="logo_container" onClick={handleLogoClick}>
             <img
               src={logo}
               loading="lazy"
               alt="Logo"
-              className="rotating-logo"
+              className="rotating_logo"
             />
           </div>
         </div>
