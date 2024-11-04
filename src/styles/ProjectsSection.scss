@@ -4,6 +4,13 @@
   height: 615px;
   padding: 20px;
 
+  &_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    justify-content: center;
+  }
+
   @media (max-width: 780px) {
     height: unset;
   }
@@ -23,12 +30,5 @@
       background-color: #333;
       margin: 0.5rem auto;
     }
-  }
-
-  .projects_flex {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8%;
-    justify-content: center;
   }
 }
